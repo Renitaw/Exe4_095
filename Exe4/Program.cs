@@ -11,8 +11,11 @@ namespace Exe4_StackUsingArray
         int[] Renita = new int[114];
         private int top;
         private int max;
-        static void Main(string[] args)
+        public Stack(int size)
         {
+            Renita = new int[size];
+            top = -1;
+            max = size;
         }
     }
 }

@@ -17,5 +17,17 @@ namespace Exe4_StackUsingArray
             top = -1;
             max = size;
         }
+        public void push(int item)
+        {
+            if (top == max - 1)
+            {
+                Console.WriteLine("Stack Overflow");
+                return;
+            }
+            else
+            {
+                Renita[++top] = item;
+            }
+        }
     }
 }

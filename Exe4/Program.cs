@@ -41,5 +41,12 @@ namespace Exe4_StackUsingArray
                 return Renita[top--];
             }
         }
+        public bool empty()
+        {
+            if (top == -1)
+                return (true);
+            else
+                return (false);
+        }
     }
 }

@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exe4_StackUsingArray
 {
-    internal class Program
+    class Stack
     {
+        int[] Renita = new int[114];
+        private int top;
+        private int max;
         static void Main(string[] args)
         {
         }

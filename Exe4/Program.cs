@@ -29,5 +29,17 @@ namespace Exe4_StackUsingArray
                 Renita[++top] = item;
             }
         }
+        public int pop()
+        {
+            if (top == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                Console.WriteLine("Popped element is: " + Renita[top]);
+                return Renita[top--];
+            }
+        }
     }
 }

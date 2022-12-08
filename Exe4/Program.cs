@@ -96,6 +96,9 @@ namespace Exe4_StackUsingArray
                         }
                         s.pop();
                         break;
+                    case '3':
+                        s.display();
+                        break;
                 }
             }
         }

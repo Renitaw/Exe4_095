@@ -48,5 +48,20 @@ namespace Exe4_StackUsingArray
             else
                 return (false);
         }
+        public void display()
+        {
+            if (empty())
+            {
+                Console.WriteLine("Stack is Empty");
+                return;
+            }
+            else
+            {
+                for (int i = 0; i <= top; i++)
+                {
+                    Console.WriteLine("Item[" + (i + 1) + "]: " + Renita[i]);
+                }
+            }
+        }
     }
 }
